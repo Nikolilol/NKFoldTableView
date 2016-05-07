@@ -6,4 +6,4 @@ This is a tableView which can flod section.
 
 ## License
 
-AFNetworking is released under the MIT license. See LICENSE for details.
+NKFoldTableView is released under the MIT license. See LICENSE for details.
