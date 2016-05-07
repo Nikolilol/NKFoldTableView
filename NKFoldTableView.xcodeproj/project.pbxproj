@@ -13,6 +13,9 @@
 		23DEC5101CDE1AB10072EF1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DEC50E1CDE1AB10072EF1D /* Main.storyboard */; };
 		23DEC5121CDE1AB10072EF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DEC5111CDE1AB10072EF1D /* Assets.xcassets */; };
 		23DEC5151CDE1AB10072EF1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DEC5131CDE1AB10072EF1D /* LaunchScreen.storyboard */; };
+		23DEC5231CDE1B2F0072EF1D /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC51D1CDE1B2F0072EF1D /* CellModel.m */; };
+		23DEC5281CDE1C4D0072EF1D /* NKFoldTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC5271CDE1C4D0072EF1D /* NKFoldTableView.m */; };
+		23DEC52B1CDE1C700072EF1D /* NKFoldSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC52A1CDE1C700072EF1D /* NKFoldSectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		23DEC5111CDE1AB10072EF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23DEC5141CDE1AB10072EF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23DEC5161CDE1AB10072EF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DEC51C1CDE1B2F0072EF1D /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		23DEC51D1CDE1B2F0072EF1D /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		23DEC5261CDE1C4D0072EF1D /* NKFoldTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKFoldTableView.h; sourceTree = "<group>"; };
+		23DEC5271CDE1C4D0072EF1D /* NKFoldTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKFoldTableView.m; sourceTree = "<group>"; };
+		23DEC5291CDE1C700072EF1D /* NKFoldSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKFoldSectionView.h; sourceTree = "<group>"; };
+		23DEC52A1CDE1C700072EF1D /* NKFoldSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKFoldSectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,9 @@
 		23DEC5041CDE1AB10072EF1D /* NKFoldTableView */ = {
 			isa = PBXGroup;
 			children = (
+				23DEC51C1CDE1B2F0072EF1D /* CellModel.h */,
+				23DEC51D1CDE1B2F0072EF1D /* CellModel.m */,
+				23DEC51E1CDE1B2F0072EF1D /* NKFoldTableView */,
 				23DEC5081CDE1AB10072EF1D /* AppDelegate.h */,
 				23DEC5091CDE1AB10072EF1D /* AppDelegate.m */,
 				23DEC50B1CDE1AB10072EF1D /* ViewController.h */,
@@ -77,6 +89,17 @@
 				23DEC5061CDE1AB10072EF1D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23DEC51E1CDE1B2F0072EF1D /* NKFoldTableView */ = {
+			isa = PBXGroup;
+			children = (
+				23DEC5261CDE1C4D0072EF1D /* NKFoldTableView.h */,
+				23DEC5271CDE1C4D0072EF1D /* NKFoldTableView.m */,
+				23DEC5291CDE1C700072EF1D /* NKFoldSectionView.h */,
+				23DEC52A1CDE1C700072EF1D /* NKFoldSectionView.m */,
+			);
+			path = NKFoldTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +174,10 @@
 			files = (
 				23DEC50D1CDE1AB10072EF1D /* ViewController.m in Sources */,
 				23DEC50A1CDE1AB10072EF1D /* AppDelegate.m in Sources */,
+				23DEC52B1CDE1C700072EF1D /* NKFoldSectionView.m in Sources */,
 				23DEC5071CDE1AB10072EF1D /* main.m in Sources */,
+				23DEC5281CDE1C4D0072EF1D /* NKFoldTableView.m in Sources */,
+				23DEC5231CDE1B2F0072EF1D /* CellModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
